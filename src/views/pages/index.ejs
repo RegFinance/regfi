@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include(`${partials}/head`); -%>
+<body class="container">
+    <div class="jumbotron text-center">
+        <img src="https://coin.top/production/upload/logo/1003886.png?t=1617948485847">
+        <h1>REG YIELD FARMING</h1>
+    </div>
+    <div class="bg-secondary row">
+        <div class="col-sm-12"><h3>---Pool Provider---</h3></div> 
+    </div>
+    <div class="row">
+        <div class="col-sm-4">Synthetix </div> 
+        <div class="col-sm-4"><a href="synthetix/susd/">Curve sUSD</a> </div> 
+        <div class="col-sm-4"> SNX, CRV</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">Synthetix  </div>
+        <div class="col-sm-4"><a href="synthetix/ieth/">Synthetix iETH</a> </div>
+        <div class="col-sm-4">SNX</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">Synthetix </div>
+        <div class="col-sm-4"><a href="synthetix/ibtc/">Synthetix iBTC</a></div> 
+        <div class="col-sm-4">SNX</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">Synthetix + Ren </div>
+        <div class="col-sm-4"><a href="synthetix/sBTC/">Curve sBTC</a> </div>
+        <div class="col-sm-4">SNX, REN, BAL, CRV</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">yearn.finance </div>
+        <div class="col-sm-4"><a href="yearn/ygov2/">yearn.finance governance</a> </div>
+        <div class="col-sm-4"> yCRV</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">mStable  </div>
+        <div class="col-sm-4"><a href="mstable/usdc/">Balancer mUSD-USDC</a> </div>
+        <div class="col-sm-4">MTA, BAL</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"> mStable </div>
+        <div class="col-sm-4"> <a href="mstable/weth/">Balancer mUSD-WETH</a>  </div>
+        <div class="col-sm-4"> MTA, BAL</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4"> mStable </div>
+        <div class="col-sm-4"><a href="mstable/mta/">Balancer mUSD-MTA 20-80</a> </div>
+        <div class="col-sm-4"> MTA, BAL</div>
+    </div>   
+    <div class="row">
+        <div class="col-sm-4">mStable</div>        
+         <div class="col-sm-4"> <a href="mstable/mta_5/">Balancer mUSD-MTA 95-5</a></div>
+         <div class="col-sm-4"> MTA, BAL</div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4">mStable  </div>
+        <div class="col-sm-4"><a href="mstable/weth_uniswap/">Uniswap MTA-WETH</a> </div>
+        <div class="col-sm-4">MTA</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">UMA Project  </div>
+        <div class="col-sm-4"><a href="uma/yusd/">Balancer yUSD-USDC</a>  </div>
+        <div class="col-sm-4">UMA, BAL</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"> yfii.finance </div>
+        <div class="col-sm-4"> <a href="yfii/ycrv/">Curve yCRV</a>  </div>
+        <div class="col-sm-4"> YFII, CRV</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">yfii.finance  </div>
+        <div class="col-sm-4"><a href="yfii/yfii_dai/">Balancer YFII-DAI</a> </div>
+        <div class="col-sm-4">YFII, BAL?</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">cream.finance </div>
+        <div class="col-sm-4"><a href="cream/uniswap/">Uniswap CREAM-ETH</a> </div>
+            <div class="col-sm-4">CREAM</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">cream.finance   </div>
+        <div class="col-sm-4"><a href="cream/balancer/">Balancer CREAM-ETH</a> </div>
+        <div class="col-sm-4">CREAM</div>
+    </div>
+    <div class="bg-secondary row">
+        <div class="col-sm-12"><h3> --- Governance ---  </h3></div> 
+    </div>
+    <div class="row">
+        <div class="col-sm-6">yearn.finance</div>
+        <div class="col-sm-6"><a href="yearn/vote/">yearn proposal voting</a></div>
+    </div>
+    <div class="bg-secondary row">
+        <div class="col-sm-12"> <h3>----- Vaults -----</h3></div> 
+    </div>
+    <div class="row">
+        <div class="col-sm-6"> yearn.finance</div>  
+            <div class="col-sm-6"> <a href="yearn/yvault/">yearn vaults</a> 
+        (Supports yCRV, DAI, USDT, TUSD, USDC, aLINK)
+        </div>
+    </div>
+<%- include(`${partials}/scripts`, {scriptname: 'homepage'}); -%>
+</body>
+</html>

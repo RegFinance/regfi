@@ -1,0 +1,46 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Primary Meta Tags -->
+    <title>Yield Farming</title>
+    <meta name="title" content="Yield Farming">
+    <meta name="description" content="🧑‍🌾 Yield Farming">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://regfi.herokuapp.com">
+    <meta property="og:title" content="Yield Farming">
+    <meta property="og:description" content="🧑‍🌾 Yield Farming">
+    <meta property="og:image" content="https://coin.top/production/upload/logo/1003886.png?t=1617948485847">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://regfi.herokuapp.com">
+    <meta property="twitter:title" content="Yield Farming">
+    <meta property="twitter:description" content="🧑‍🌾 Yield Farming">
+    <meta property="twitter:image" content="https://coin.top/production/upload/logo/1003886.png?t=1617948485847">
+
+    <% if(filenameMap) { %>
+        <link rel="stylesheet" href="<%= PP %>/css/<%= filenameMap['index.css'] %>">
+        <link rel="preload" href="<%= PP %>/js/<%= filenameMap['vendor.js'] %>" as="script">
+        <link rel="prefetch" href="<%= PP %>/js/<%= filenameMap['vendor.js'] %>">
+        <link rel="preload" href="<%= PP %>/js/<%= filenameMap['app.js'] %>" as="script">
+        <link rel="prefetch" href="<%= PP %>/js/<%= filenameMap['app.js'] %>">
+    <% } else { %>
+        <link rel="stylesheet" href="<%= PP %>/css/index.css">
+        <link rel="preload" href="<%= PP %>/js/vendor.js" as="script">
+        <link rel="prefetch" href="<%= PP %>/js/vendor.js">
+        <link rel="preload" href="<%= PP %>/js/app.js" as="script">
+        <link rel="prefetch" href="<%= PP %>/js/app.js">
+    <% } %>
+
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="<%= PP %>/favicon.svg">
+    <link rel="apple-touch-icon" href="<%= PP %>/apple-touch-icon.png">
+    <link rel="manifest" href="<%= PP %>/manifest.json">
+</head>
+<%- include(`${partials}/quick`); -%>
