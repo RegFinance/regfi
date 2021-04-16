@@ -1,7 +1,7 @@
 const path = require('path')
 const globals = require('./globals')
 const webpack = require('webpack')
-
+app.listen(process.env.PORT || 3000);
 let isProduction
 
 module.exports = (env = {}) => {
