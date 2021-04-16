@@ -6,5 +6,7 @@
     "node": "14.x",
         "npm": "6.x",
         "yarn": "1.x"
-  }
+  },
+    "scripts": {
+    "start": "browser-sync start -s 'dist' -f 'dist' --no-open --no-notify --reload-debounce 50"  }
 }
