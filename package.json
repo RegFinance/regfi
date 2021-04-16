@@ -46,7 +46,6 @@
     "html-minifier": "^3.5.21",
     "node-sass": "^4.13.1",
     "node-watch": "^0.6.4",
-    "npm-run-all": "^6.14.12",
     "postcss-cli": "^4.1.1",
     "prettier": "^1.19.1",
     "rimraf": "^2.7.1",
